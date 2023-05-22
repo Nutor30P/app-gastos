@@ -11,9 +11,9 @@ function App() {
     <GlobalProvider>
       <div className="bg-zinc-900 text-white h-screen flex justify-center items-center">
         <div className="container mx-auto w-3/6">
-          <div className="bg-zinc-800 p-10 rounded-lg flex gap-x-2">
+          <div className="bg-zinc-800 p-10 rounded-lg flex gap-x-5">
             <div>
-              <h1 className="text-4xl">Expense Tracker</h1>
+              <h1 className="text-4xl text-indigo-700 ">EXPENSE TRACKER</h1>
               <IncomeExpenses />
               <Balance />
               <TransactionForm />
