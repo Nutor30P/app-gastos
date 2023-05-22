@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+
 import { GlobalProvider } from "./context/GlobalState";
 import Balance from "./components/Balance";
 import TransactionForm from "./components/transactions/TransactionForm";
